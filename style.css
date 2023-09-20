@@ -1,0 +1,1012 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar-container {
+    background-color: #001845;
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container a img {
+    margin-top: 7px;
+    margin-left: 66px;
+    height: 44px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container a {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container a:last-child {
+    margin-right: 46px;
+}
+
+.container a:hover {
+    background-color: #0466c8; 
+}
+
+.landing-page {
+    display: flex;
+    background-image: url("./images/homepage_background.png");
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    flex-direction: column;
+}
+
+.text-container {
+    margin-top: 90px;
+    margin-left: 90px;
+    align-self: flex-start;
+}
+
+.text-container h1 {
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.text-container h1 span {
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 120px;
+}
+
+.text-container p {
+    font-size: 16px;
+    width: 600px;
+    text-align: justify;
+}
+
+.button-white {
+    margin-top: 30px;
+    width: 420px;
+    height: 70px;
+    border-radius: 35px;
+    border: none;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    color: #001845;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-white:hover {
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.scroll-down {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.scroll-down img {
+    margin-top: 5px;
+    height: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.scroll-down::after {
+    content: "Scroll Down";
+    margin-top: -60px;
+}
+
+.scroll-down:hover > img{
+    margin-top: 10px;
+}
+
+.we-care {
+    background-color: #001845;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.we-care-text-container img {
+    height: 53px;
+}
+
+.we-care-text-container h1 {
+    margin-top: -20px;
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.we-care-text-container h2 {
+    margin-top: -20px;
+    font-size: 22px;
+}
+
+.we-care-text-container p {
+    width: 500px;
+    text-align: justify;
+}
+
+.we-care-text-container .button-white {
+    width: 350px;
+}
+
+.animal-care-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animal-care-container .zebra-info {
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 415px;
+    border-radius: 20px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    z-index: 1;
+}
+
+.animal-care-container .zebra-info h2 {
+    color: #001845;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.animal-care-container .zebra-info h3 {
+    color: #001845;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.we-need-help-container ,.mailing-list-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.we-need-help-header,.mailing-list-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.we-need-help-header h1 ,.mailing-list-header h1 {
+    color: #0466c8;
+    font-size: 60px;
+}
+
+.we-need-help-header h1 span ,.mailing-list-header h1 span{
+    color: #001845;
+    font-size: 60px;
+}
+
+.mailing-list-header p{
+    margin-top: 20px;
+    color: #001845;
+    font-size: 16px;
+    width: 430px;
+    text-align: justify;
+}
+
+.we-need-help-header p{
+    margin-top: 20px;
+    color: #001845;
+    font-size: 16px;
+    width: 500px;
+    text-align: justify;
+}
+
+.we-need-help-inner-container ,.mailing-list-inner-container{
+    margin-top: 0px;
+}
+
+.we-need-help-inner-container img ,.mailing-list-inner-container img{
+    height: 300px;
+}
+
+.button-blue {
+    margin-top: 20px;
+    width: 300px;
+    height: 55px;
+    border-radius: 35px;
+    border: none;
+    background-color: #0466c8;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-blue:hover {
+    background-color: transparent;
+    border: 3px solid #0466c8;
+    color: #0466c8;
+}
+
+.turtle-background {
+    display: flex;
+    background-image: url("./images/turtle_background.png");
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    flex: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.turtle-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+}
+
+.turtle-container h1 {
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.turtle-container h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.turtle-background {
+    align-items: flex-start;
+}
+
+.turtle-information-panel {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 600px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.turtle-information-panel h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #001845;
+}
+
+.turtle-information-panel p {
+    font-size: 20px;
+    color: #001845;
+    text-align: justify;
+}
+
+.turtle-text-wrapper {
+    width: 480px;
+}
+
+.turtle-text-wrapper p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.position-animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px; 
+}
+
+.position-animal::after  {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -60px;
+    transition: all 0.2s ease-in-out;
+}
+
+.position-animal:hover::after {
+    text-align: center;
+    width: 250px;
+    font-size: 38px;
+    margin-top: -160px;
+}
+
+
+footer {
+    background-color:#001845;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-socials-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-piscis-footer img {
+    height: 66px;
+}
+
+.footer-socials {
+    height: 45px;
+}
+
+.footer-conservation {
+    width: 270px;
+}
+
+.footer-conservation h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 95%;
+}
+
+.footer-conservation .button-white {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.footer-navigation h2 {
+    font-size: 22px;
+}
+
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navigation a {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer-contact h2 {
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+.footer-contact h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.footer-contact p {
+    font-size: 16px;
+}
+
+.footer-copyright h1 {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.donation-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    width: 400px;
+    height: 540px;
+}
+
+.wrapper-donation {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donation-panel h1 {
+    font-weight: 800;
+    font-size: 28px;
+    color: #0466c8; 
+}
+
+.donation-panel h2 {
+    margin-top: 20px;
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: 18px;
+    color: #001845;
+}
+
+.input-panel input{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #33415c;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
+}
+
+.donation-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.custom-amount {
+    margin-top: 10px;
+    display: flex;
+}
+
+.donation-wrapper .input-panel input{
+    margin-top: 0;
+    width: 225px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.dollar-symbol {
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    font-size: 20px;
+    height: 51px;
+    background-color: #0466c8;
+    border-radius: 10px;
+}
+
+.dollar-symbol h1 {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.checkbox-container input {
+    width: 95px;
+    height: 51px;
+    margin: 0px;
+    border: 2px solid #FFFFFF; 
+    opacity: 0;
+}
+
+.checkbox-container div {
+    margin-top: -50px;
+    background-color: #FFFFFF;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 51px;
+    border: 2px solid #33415c;
+    border-radius: 10px;
+    color: #15133c;
+    font-weight: 600;
+    user-select: none;
+    pointer-events: none;
+}
+
+.checkbox-container input:hover ~ div{
+    border: 2px solid #0466c8;
+    color: #0466c8;
+}
+
+.checkbox-container input:checked ~ div{
+    background-color: #0466c8;
+    border-color: #0466c8;
+    color: #FFFFFF;
+}
+
+.button-donate {
+    margin-top: 25px;
+    height: 45px;
+    width: 100%;
+    background-color: #0466c8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.amount-agreement {
+    margin-top: 10px;
+}
+
+.amount-agreement input{
+    height: 20px;
+    width: 20px;
+}
+
+.amount-agreement label{
+    font-size: 14px;
+    color: #15133c;
+    position: relative;
+    top: -5px;
+}
+
+.button-donate:active {
+    background-color: transparent; 
+    color: #0466c8;
+    border: 2px solid #0466c8;
+}
+
+.we-need-help-container-donation {
+    height: 950px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.we-need-help-container-donation .we-need-help-header p {
+    margin-top: 20px;
+    color: #001845;
+    font-size: 16px;
+    width: 850px;
+    text-align: center;
+}
+
+.we-need-help-container-donation .we-need-help-inner-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.we-need-help-container-donation .we-need-help-inner-container img {
+    height: 400px;
+}
+
+.subscription-container {
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+
+.subscription-information {
+    background-image: url("./images/subscription_background.png");
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subscription-information h1 {
+    font-weight: 800;
+    font-size: 96px;
+}
+
+.subscription-information p {
+    width: 500px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.subscription-section {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subscription-panel {
+    width: 500px;
+    height: 820px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription-wrapper {
+    display: flex;
+    height: 100%;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription-wrapper h1 {
+    color: #001845;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.subscription-wrapper .input-panel {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription-wrapper .input-panel label {
+    color: #001845;
+    font-size: 20px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.subscription-wrapper .input-panel input {
+    margin-top: 2px;
+    width: 350px;
+}
+
+#birthdate-subscription {
+    padding-right: 10px;
+}
+
+.dropdown-education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dropdown-education select {
+    width: 350px;
+    height: 40px;
+    border: 2px solid #33415c;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
+}
+
+.dropdown-education select option {
+    color: black;
+    font-size: 14px;
+}
+
+.dropdown-education label {
+    color: #001845;
+    font-size: 20px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.dropdown-education {
+    margin-top: 15px;
+}
+
+.newsletter-container {
+    margin-top: 20px;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-type-title {
+    color: #001845;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.select-newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.select-newsletter .checkbox-container div, .select-newsletter .checkbox-container input {
+    width: 110px;
+}
+
+.select-newsletter .checkbox-container:nth-child(4) div, .select-newsletter .checkbox-container:nth-child(4) input,  .select-newsletter .checkbox-container:nth-child(5) div, .select-newsletter .checkbox-container:nth-child(5) input{
+    width: 170px;
+}
+
+.newsletter-checkbox {
+    margin-top: 10px;
+    display: flex;
+    width: 350px;
+    align-items: flex-start;
+}
+
+.newsletter-checkbox input {
+    height: 20px;
+    width: 20px;
+}
+
+.newsletter-checkbox label {
+    color: #001845;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: -2px;
+    font-weight: 600;
+}
+
+.select-newsletter .checkbox-container input:checked ~ div {
+    background-color: #001845;
+    border: none;
+    color: #FFFFFF;
+}
+
+.button-darkblue {
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color:#001845;
+    font-weight: 600;
+}
+
+.button-darkblue:hover {
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    color: #001845;
+    border-radius: 10px;
+    border: 2px solid #001845;
+    background-color:transparent;
+}
+
+.marine-animal-banner {
+    background-image: url("./images/banner_marine_animal.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.marine-animal-banner h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.marine-animal-banner h1 span {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.marine-animal-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 2550px;
+}
+
+.marine-animal-container h1 {
+    color: #001845;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.marine-animal-wrapper {
+    width: 1200px;
+}
+
+.fish-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.marine-animal-fact {
+    background-color: #001845;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marine-animal-fact h1 {
+    color: #FFFFFF;
+}
+
+.marine-animal-fact p {
+    width:  850px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.marine-animal-fact .button-white {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.marine-animal-container > h1 {
+    margin-bottom: 80px;
+}
+
+.shark-item::after{
+    content: "Reef Shark";
+}
+
+.dolphin-item::after {
+    content: "Dolphin";
+}
+
+.humpback-item::after {
+    content: "Humpback";
+}
+
+.clownfish-item::after {
+    content: "Clownfish";
+}
+
+.yellow-tang-item::after {
+    content: "Yellow Tang";
+}
+
+.moorish-idol-item::after {
+    content: "Moorish Idol";
+}
+
+.surgeon-fish-item::after {
+    content: "Surgeon fish";
+}
+
+.sawfish-item::after {
+    content: "Sawfish";
+}
+
+.hammerhead-item::after {
+    content: "Hammerhead";
+}
+
+.hammerhead-item:hover::after {
+    font-size: 30px;
+}
+
+.manta-item::after {
+    content: "Manta Ray";
+}
+
+.great-white-item::after {
+    content: "Great White";
+}
+
+.beluga-item::after {
+    content: "Beluga";
+}
+
+.harp-seal-item::after {
+    content: "Harp Seal";
+}
+
+.green-turtle-item::after {
+    content: "Green Turtle";
+}
+
+.hawksbill-item::after {
+    content: "Hawksbill Turtle";
+}
+
+.hawksbill-item:hover::after {
+    font-size: 30px;
+}
+
+.green-turtle-item::after {
+    content: "Green Turtle";
+}
+
+.marine-iguana-item::after {
+    content: "Marine Iguana";
+}
+
+.marine-iguana-item:hover::after {
+    font-size: 30px;
+}
+
+.leatherback-item::after {
+    content: "Leatherback Turtle";
+}
+
+.leatherback-item:hover::after {
+    font-size: 25px;
+}
+
+.octopus-item::after {
+    content: "Giant Pacific Octopus";
+}
+
+.octopus-item:hover::after {
+    font-size: 22px;
+}
+
+.nautilus-item::after {
+    content: "Nautilus";
+}
+
+.mantis-shrimp-item::after {
+    content: "Mantis Shrimp";
+}
+
+.mantis-shrimp-item:hover::after {
+    font-size: 30px;
+}
+
+.hermit-crab-item::after {
+    content: "Hermit Crab";
+}
+
+.more-animals {
+    height: 400px;
+    width: 100%;
+    background-color: #001845;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.more-animals-title h1 {
+    font-size: 60px;
+    line-height: 110%;
+}
+
+.more-animals-title button {
+    width: 255px; 
+}
+
+.zebra-img-container::after {
+    content: url("./images/zebrasnout2.png");
+    display: flex;
+    margin-top: -620px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.zebra-img-container:hover::after {
+    opacity: 1;
+}
